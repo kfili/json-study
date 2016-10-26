@@ -38,7 +38,16 @@ As it makes sense to you please write the following in JSON format:
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+{"Jason": {
+  "id": "array",
+    "JasonHas": [
+      "A Cat named Mr.Kitty",
+      "Two roomates named Dave and Miller",
+      "A Love of the Red Sox, Patriots and Bruins",
+      "Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road"
+    ]
+  }
+}}
 ```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,7 +55,19 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+{"Jason": {
+  "id": "array",
+    "JasonHas": [
+      "A Cat named Mr.Kitty",
+      "Two roomates named Dave and Miller",
+      "A Love of the Red Sox, Patriots and Bruins",
+      "Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road",
+      "roomate Dave has two goldfish",
+      "goldfish 1 named Bob (he's red)",
+      "goldfish 2 named Mr.MagicNibbles (yellow) and bites a bit."
+    ]
+  }
+}}
 ```
 
 ## JSON Methods
@@ -54,7 +75,7 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+a little confused by this question since according to this reading "JSON cannot have a method, because JSON is a data exchange format."
 ```
 
 ## JSON Comments
@@ -62,5 +83,7 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+Comments should not be put in JSON text, as they are not semantically valid.
+
+source: quora
 ```
